@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biryani Bliss - Authentic Indian Cuisine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <span class="page-title">Biryani Bliss</span>
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#menu">Menu</a>
+    <a href="#reservation">Reservation</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header id="home">
+    <h1>Welcome to Biryani Bliss</h1>
+    <p>Experience the aroma and taste of traditional biryani every day!</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Biryani Bliss, we celebrate the rich and flavorful tradition of authentic biryanis. Our chefs bring you the finest spices and freshest ingredients for a taste you’ll never forget.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+
+      <!-- Hyderabadi Biryani -->
+      <div class="menu-item">
+        <h3>Hyderabadi Biryani</h3>
+        <p>Fragrant basmati rice cooked with tender chicken, saffron, and spices.</p>
+        <div class="menu-select">
+          <label for="hyderabadi-options">Choose your Biryani:</label>
+          <select id="hyderabadi-options">
+            <option value="hyderabadi">Hyderabadi Biryani</option>
+            <option value="chicken">Chicken Biryani</option>
+            <option value="dum">Dum Biryani</option>
+          </select>
+        </div>
+        <div class="size-options">
+          <label><input type="radio" name="size-hyderabadi" /> Small - ₹180</label><br>
+          <label><input type="radio" name="size-hyderabadi" /> Medium - ₹250</label><br>
+          <label><input type="radio" name="size-hyderabadi" /> Large - ₹320</label>
+        </div>
+        <button>Order Now</button>
+      </div>
+
+      <!-- Vegetable Biryani -->
+      <div class="menu-item">
+        <h3>Vegetable Biryani</h3>
+        <p>Aromatic rice with mixed veggies, herbs, and a blend of spices.</p>
+        <div class="menu-select">
+          <label for="vegetable-options">Choose your Biryani:</label>
+          <select id="vegetable-options">
+            <option value="vegetable">Vegetable Biryani</option>
+            <option value="paneer">Paneer Biryani</option>
+            <option value="mixed">Mixed Vegetable Biryani</option>
+          </select>
+        </div>
+        <div class="size-options">
+          <label><input type="radio" name="size-vegetable" /> Small - ₹150</label><br>
+          <label><input type="radio" name="size-vegetable" /> Medium - ₹210</label><br>
+          <label><input type="radio" name="size-vegetable" /> Large - ₹270</label>
+        </div>
+        <button>Order Now</button>
+      </div>
+
+      <!-- Kebab Platter -->
+      <div class="menu-item">
+        <h3>Kebab Platter</h3>
+        <p>Succulent grilled kebabs served with mint chutney and onions.</p>
+        <div class="menu-select">
+          <label for="kebab-options">Choose your Kebab:</label>
+          <select id="kebab-options">
+            <option value="seekh">Seekh Kebab</option>
+            <option value="shish">Shish Kebab</option>
+            <option value="tandoori">Tandoori Kebab</option>
+          </select>
+        </div>
+        <div class="size-options">
+          <label><input type="radio" name="size-kebab" /> Small - ₹200</label><br>
+          <label><input type="radio" name="size-kebab" /> Medium - ₹280</label><br>
+          <label><input type="radio" name="size-kebab" /> Large - ₹350</label>
+        </div>
+        <button>Order Now</button>
+      </div>
+
+      <!-- Soda -->
+      <div class="menu-item">
+        <h3>Soda</h3>
+        <p>Refreshing your mind and take soda drink to complement your meal.</p>
+        <div class="menu-select">
+          <label for="lassi-options">Choose your Soda:</label>
+          <select id="lassi-options">
+            <option value="mango">Masala Soda</option>
+            <option value="sweet">Sweet Soda</option>
+            <option value="salted">Salted Soda</option>
+          </select>
+        </div>
+        <div class="size-options">
+          <label><input type="radio" name="size-soda" /> Small - ₹60</label><br>
+          <label><input type="radio" name="size-soda" /> Medium - ₹90</label><br>
+          <label><input type="radio" name="size-soda" /> Large - ₹120</label>
+        </div>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="reservation">
+    <div class="reservation-container">
+      <h2>Table Reservation</h2>
+      <p>Book your table in advance to enjoy the perfect biryani experience!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="date" required />
+        <input type="time" required />
+        <br />
+        <button type="submit">Reserve Now</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>From Our Blog</h2>
+    <p>Discover biryani recipes, spice secrets, and stories from our kitchen.</p>
+    <a href="read.html">
+      <button>Read More</button>
+    </a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:contact@biryani-bliss.com">contact@biryani-bliss.com</a></p>
+    <p>Phone: (123) 456-7890</p>
+    <div class="social-links">
+      <h3>Follow Us:</h3>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.google.com" target="_blank"><i class="fab fa-google"></i></a>
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+  </section>
+
+</body>
+</html>
